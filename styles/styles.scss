@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@1,800&display=swap');
+
+%text {
+  position: relative;
+  flex: auto;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #d4d3cb;
+  opacity: 85%;
+}
+
+.landing {
+  width: 92vw;
+  height: 70vh;
+  justify-content: center;
+  text-align: center;
+  margin: 4em;
+  >img {
+    z-index: -1;
+  }
+ >h1 {
+   position: absolute;
+   background-color: #B3A369;
+   opacity: 85%;
+   font-size: 7rem;
+   color: #003057;
+   top: 30%;
+   left: 50%;
+   transform: translate(-50%, -50%)
+ }
+}
+
+.stamps {
+  margin-bottom: 50px;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  text-align: center;
+}
+
+.stampstitle {
+  position: relative;
+  text-align: center;
+  font-size: 5rem;
+  color: #003057;
+  margin-top: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.appointment {
+  width: 100%;
+  height: 80vh;
+
+  >h2 {
+    color: #B3A369;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  >ul {
+    margin-top: 10px;
+    justify-content: left;
+    color: #003057;
+    font-size: 25px;
+    >li{
+    margin-bottom: 15px;
+    }
+  }
+}
+.services {
+  width: 100%;
+  height: 80vh;
+  >h2 {
+    color: #B3A369;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  >ul {
+    margin-top: 10px;
+    justify-content: left;
+    color: #003057;
+    font-size: 35px;
+    >li{
+    margin-bottom: 15px;
+    }
+  }
+}
+
+.sympcovid {
+  width: 100%;
+  height: 80vh;
+  margin-bottom: 200px;
+  >h2 {
+    color: #B3A369;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  >ul {
+    margin-top: 10px;
+    justify-content: left;
+    color: #003057;
+    font-size: 35px;
+    >li{
+    margin-bottom: 15px;
+    }
+  }
+}
+
+.asympcovid {
+  width: 100%;
+  height: 80vh;
+  >h2 {
+    color: #B3A369;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  >ul {
+    margin-top: 10px;
+    justify-content: left;
+    color: #003057;
+    font-size: 35px;
+    >li{
+    margin-bottom: 15px;
+    }
+    .imageleft{
+      width: 51%;
+      float:left;
+    }
+    .imageright{
+      width: 49%;
+      float:right;
+    }
+  }
+}
+
+.travelcovid {
+  width: 100%;
+  height: 80vh;
+  margin-top: 15px;
+  >h2 {
+    color: #B3A369;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  >ul {
+    margin-top: 10px;
+    justify-content: left;
+    color: #003057;
+    font-size: 35px;
+    >li{
+    margin-bottom: 15px;
+    }
+    .imageleft{
+      width: 51%;
+      float:left;
+    }
+    .imageright{
+      width: 49%;
+      float:right;
+    }
+  }
+}
+
+.urgentcare {
+  margin-bottom: 50px;
+  margin-top: 70%;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+}
+
+.urgentcaretitle {
+  position: relative;
+  text-align: center;
+  font-size: 5rem;
+  color: #003057;
+  margin-top: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+
+.peach {
+  width: 100%;
+  height: 80vh;
+  margin-top: 15px;
+  margin-bottom: 900px;
+  >h2 {
+    color: #B3A369;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  >ul {
+    margin-top: 10px;
+    justify-content: left;
+    color: #003057;
+    font-size: 35px;
+    >li{
+    margin-bottom: 15px;
+    >a{
+      color: #003057;
+    }
+    }
+    .imageleft{
+      width: 51%;
+      float:left;
+    }
+    .imageright{
+      width: 49%;
+      float:right;
+    }
+  }
+}
+
+
+.centennial {  
+  width: 100%;
+  height: 80vh;
+  margin-top: 100px;
+  margin-bottom: 600px;
+  >h2 {
+    color: #B3A369;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  >ul {
+    margin-top: 10px;
+    justify-content: left;
+    color: #003057;
+    font-size: 35px;
+    >li{
+    margin-bottom: 15px;
+    >a{
+      color: #003057;
+    }
+    }
+    .imageleft{
+      width: 51%;
+      float:left;
+    }
+    .imageright{
+      width: 49%;
+      float:right;
+    }
+  }
+}
+
+
+.emory {
+  width: 100%;
+  height: 80vh;
+  margin-top: 100px;
+  >h2 {
+    color: #B3A369;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  >ul {
+    margin-top: 10px;
+    justify-content: left;
+    color: #003057;
+    font-size: 35px;
+    >li{
+    margin-bottom: 15px;
+    >a{
+      color: #003057;
+    }
+    }
+    .imageleft{
+      width: 51%;
+      float:left;
+    }
+    .imageright{
+      width: 49%;
+      float:right;
+    }
+  }
+}

@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@1,800&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #d4d3cb;
+  opacity: 85%;
+}
+
+.landing {
+  width: 92vw;
+  height: 70vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 4em;
+}
+
+.landing > img {
+  z-index: -1;
+}
+
+.landing > h1 {
+  position: absolute;
+  background-color: #B3A369;
+  opacity: 85%;
+  font-size: 7rem;
+  color: #003057;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.stamps {
+  margin-bottom: 50px;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  text-align: center;
+}
+
+.stampstitle {
+  position: relative;
+  text-align: center;
+  font-size: 5rem;
+  color: #003057;
+  margin-top: 20px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.appointment {
+  width: 100%;
+  height: 80vh;
+}
+
+.appointment > h2 {
+  color: #B3A369;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.appointment > ul {
+  margin-top: 10px;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  color: #003057;
+  font-size: 25px;
+}
+
+.appointment > ul > li {
+  margin-bottom: 15px;
+}
+
+.services {
+  width: 100%;
+  height: 80vh;
+}
+
+.services > h2 {
+  color: #B3A369;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.services > ul {
+  margin-top: 10px;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  color: #003057;
+  font-size: 35px;
+}
+
+.services > ul > li {
+  margin-bottom: 15px;
+}
+
+.sympcovid {
+  width: 100%;
+  height: 80vh;
+  margin-bottom: 200px;
+}
+
+.sympcovid > h2 {
+  color: #B3A369;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.sympcovid > ul {
+  margin-top: 10px;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  color: #003057;
+  font-size: 35px;
+}
+
+.sympcovid > ul > li {
+  margin-bottom: 15px;
+}
+
+.asympcovid {
+  width: 100%;
+  height: 80vh;
+}
+
+.asympcovid > h2 {
+  color: #B3A369;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.asympcovid > ul {
+  margin-top: 10px;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  color: #003057;
+  font-size: 35px;
+}
+
+.asympcovid > ul > li {
+  margin-bottom: 15px;
+}
+
+.asympcovid > ul .imageleft {
+  width: 51%;
+  float: left;
+}
+
+.asympcovid > ul .imageright {
+  width: 49%;
+  float: right;
+}
+
+.travelcovid {
+  width: 100%;
+  height: 80vh;
+  margin-top: 15px;
+}
+
+.travelcovid > h2 {
+  color: #B3A369;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.travelcovid > ul {
+  margin-top: 10px;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  color: #003057;
+  font-size: 35px;
+}
+
+.travelcovid > ul > li {
+  margin-bottom: 15px;
+}
+
+.travelcovid > ul .imageleft {
+  width: 51%;
+  float: left;
+}
+
+.travelcovid > ul .imageright {
+  width: 49%;
+  float: right;
+}
+
+.urgentcare {
+  margin-bottom: 50px;
+  margin-top: 70%;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+}
+
+.urgentcaretitle {
+  position: relative;
+  text-align: center;
+  font-size: 5rem;
+  color: #003057;
+  margin-top: 20px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.peach {
+  width: 100%;
+  height: 80vh;
+  margin-top: 15px;
+  margin-bottom: 900px;
+}
+
+.peach > h2 {
+  color: #B3A369;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.peach > ul {
+  margin-top: 10px;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  color: #003057;
+  font-size: 35px;
+}
+
+.peach > ul > li {
+  margin-bottom: 15px;
+}
+
+.peach > ul > li > a {
+  color: #003057;
+}
+
+.peach > ul .imageleft {
+  width: 51%;
+  float: left;
+}
+
+.peach > ul .imageright {
+  width: 49%;
+  float: right;
+}
+
+.centennial {
+  width: 100%;
+  height: 80vh;
+  margin-top: 100px;
+  margin-bottom: 600px;
+}
+
+.centennial > h2 {
+  color: #B3A369;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.centennial > ul {
+  margin-top: 10px;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  color: #003057;
+  font-size: 35px;
+}
+
+.centennial > ul > li {
+  margin-bottom: 15px;
+}
+
+.centennial > ul > li > a {
+  color: #003057;
+}
+
+.centennial > ul .imageleft {
+  width: 51%;
+  float: left;
+}
+
+.centennial > ul .imageright {
+  width: 49%;
+  float: right;
+}
+
+.emory {
+  width: 100%;
+  height: 80vh;
+  margin-top: 100px;
+}
+
+.emory > h2 {
+  color: #B3A369;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.emory > ul {
+  margin-top: 10px;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  color: #003057;
+  font-size: 35px;
+}
+
+.emory > ul > li {
+  margin-bottom: 15px;
+}
+
+.emory > ul > li > a {
+  color: #003057;
+}
+
+.emory > ul .imageleft {
+  width: 51%;
+  float: left;
+}
+
+.emory > ul .imageright {
+  width: 49%;
+  float: right;
+}
+/*# sourceMappingURL=styles.css.map */
